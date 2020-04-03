@@ -7,6 +7,7 @@ body{
   border-bottom: 1px solid rgb(117, 117, 117);
 }
 .home-menu ul.list-menu-item{
+  margin: 0;
   list-style: none;
   text-align: center;
 }
@@ -16,7 +17,7 @@ body{
 .home-menu ul.list-menu-item .menu-item{
   display: block;
   padding: 8px;
-  margin: 10px;
+  margin: 15px;
   text-decoration: none;
   font-size: 12px;
   font-weight: bold;
@@ -30,4 +31,5 @@ body{
   border-color: rgb(53, 53, 53);
   color: rgb(53, 53, 53);
   box-shadow: 1px 1px 1px 1px rgb(117, 117, 117, 0.2);
+  text-shadow: 1px 1px 12px rgb(117, 117, 117, 0.2);
 }
