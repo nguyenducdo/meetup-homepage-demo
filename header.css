@@ -1,0 +1,34 @@
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.header{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.header a{
+  text-decoration: none;
+  font-size: 15px;
+}
+.header .logo{
+  flex-grow: 1;
+}
+.header .newGroup{
+  padding: 0 15px;
+  border-right: 1px solid rgb(200, 200, 200);
+}
+.header .newGroup a{
+  font-weight: bold;
+  color: rgb(0, 152, 171);
+}
+.header .login, .signup{
+  padding-left: 15px;
+}
+.header .login a, .header .signup a{
+  color: rgb(70, 70, 70);
+  transition: color 0.2s;
+}
+.header .login a:hover, .header .signup a:hover{
+  color: rgb(0, 152, 171);
+}
